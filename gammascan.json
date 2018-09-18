@@ -6,7 +6,7 @@
     },
     "repositories": [
         {
-            "dataDir": "",
+            "dataDir": $CORONA_DATA,
             "repository": {
                 "uid": "58d9a313cddb1ed1211ee1ea4dc44264",
                 "projectName": "team",
@@ -14,7 +14,7 @@
                     "JAVA"
                 ],
                 "sources": {
-                    "baseDir": "",
+                    "baseDir": $WORKSPACE,
                     "exclusions": []
                 }
             }
