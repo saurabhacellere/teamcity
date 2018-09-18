@@ -1,0 +1,23 @@
+{
+    "gammaAccess": {
+        "url": "192.168.3.61:3000",
+        "userName": "admin@mygamma.io",
+        "password": "admin"
+    },
+    "repositories": [
+        {
+            "dataDir": "",
+            "repository": {
+                "uid": "25fc6b31bb93cff8bebca99caf723059",
+                "projectName": "teamcity",
+                "languages": [
+                    "JAVA"
+                ],
+                "sources": {
+                    "baseDir": "",
+                    "exclusions": []
+                }
+            }
+        }
+    ]
+}
