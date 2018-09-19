@@ -6,7 +6,7 @@
     },
     "repositories": [
         {
-            "dataDir": $CORONA_DATA,
+            "dataDir": $GAMMA_DATA,
             "repository": {
                 "uid": "58d9a313cddb1ed1211ee1ea4dc44264",
                 "projectName": "team",
