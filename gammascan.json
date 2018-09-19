@@ -1,23 +1,25 @@
 {
-    "gammaAccess": {
-        "url": "http://192.168.3.61:3000",
-        "userName": "admin@mygamma.io",
-        "password": "admin"
-    },
-    "repositories": [
-        {
-            "dataDir": %GAMMA_DATA%,
-            "repository": {
-                "uid": "58d9a313cddb1ed1211ee1ea4dc44264",
-                "projectName": "team",
-                "languages": [
-                    "JAVA"
-                ],
-                "sources": {
-                    "baseDir": %WORKSPACE%,
-                    "exclusions": []
-                }
-            }
+  "gammaAccess": {
+    "url": "http://192.168.3.61:3000",
+    "userName": "admin@mygamma.io",
+    "password": "admin"
+  },
+  "repositories": [
+    {
+      "dataDir": "%GAMMA_DATA%",
+      "repository": {
+        "uid": "58d9a313cddb1ed1211ee1ea4dc44264",
+        "projectName": "team",
+        "languages": [
+          "JAVA"
+        ],
+        "sources": {
+          "baseDir": "%WORKSPACE%",
+          "exclusions": [
+           
+          ]
         }
-    ]
+      }
+    }
+  ]
 }
